@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "func-data-eng"
+version = "0.1.0"
+description = ""
+authors = ["Rawlsy-py <christopher_m_mitchell@live.co.uk>"]
+readme = "README.md"
+packages = [{include = "func_data_eng"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
