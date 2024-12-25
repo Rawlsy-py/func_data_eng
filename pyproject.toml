@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Rawlsy-py <christopher_m_mitchell@live.co.uk>"]
 readme = "README.md"
-packages = [{include = "func_data_eng"}]
+packages = [{ include = "func_data_eng" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -15,6 +15,9 @@ typer = "^0.15.1"
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.4"
 ruff = "^0.8.4"
+
+[tool.poetry.scripts]
+to-parq = "func_data_eng.cli:app"
 
 [build-system]
 requires = ["poetry-core"]
